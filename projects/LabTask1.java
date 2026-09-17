@@ -15,7 +15,7 @@ public class LabTask1 {
     }
     
     public static double quotient(int a, int b){
-        return a / b;
+        return (double)a / b;
     }
     
     public static void main(String[] args) {
