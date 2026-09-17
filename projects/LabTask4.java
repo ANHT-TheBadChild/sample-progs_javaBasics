@@ -22,7 +22,7 @@ public class LabTask4 {
         System.out.println("===== TRAVEL INFORMATION =====");
         System.out.printf(" Travel Distance: " 
                 + distance + " Km" +"\n Travel Time: " + time + " hours" + 
-                        "\n Speed: %.2f km/h %n", speed
+                        "\n Speed: %.1f km/h %n", speed
             );
         
         scan.close();
