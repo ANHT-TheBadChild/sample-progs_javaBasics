@@ -6,7 +6,7 @@ public class LabTask1 {
         return a + b;
     }
     
-    public static int substraction(int a, int b){
+    public static int subtraction(int a, int b){
         return a - b;
     }
     
@@ -35,7 +35,7 @@ public class LabTask1 {
         int b=scan.nextInt();
         
         int sum = addition(a, b);
-        int difference = substraction(a, b);
+        int difference = subtraction(a, b);
         int product = multiplication(a, b);
         double quotient = division(a, b);
         int remainder = modulo(a, b);
