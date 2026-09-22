@@ -13,15 +13,22 @@ public class Array1{
     }
     
     public static void main(String []args){
+
+        //vars
         Scanner scan = new Scanner(System.in);
-        int[] numbers = new int[6];
-        
+        int[] numbers = new int[6];      
+
+        //loop
         for(int i=0; i<numbers.length;i++){
             System.out.println("Enter a number please");
             numbers[i]=scan.nextInt();
         }
         
+
+        //method caller
         int biggest = findHighest(numbers);
+
+        //display
         System.out.println(biggest);
         
     }
