@@ -24,7 +24,6 @@ public class Array1{
             numbers[i]=scan.nextInt();
         }
         
-
         //method caller
         int biggest = findHighest(numbers);
 
