@@ -16,7 +16,8 @@ public class Array1{
 
         //vars
         Scanner scan = new Scanner(System.in);
-        int[] numbers = new int[6];      
+        int[] numbers = new int[6];
+      
 
         //loop
         for(int i=0; i<numbers.length;i++){
